@@ -2,7 +2,7 @@
 // function koneksi untuk koneksi ke database
 function koneksi()
 {
-    $conn = mysqli_connect("localhost", "root", "", "prakweb2023b_213040045") or die('KONEKSI GAGAL');
+    $conn = mysqli_connect("localhost", "root", "", "prakweb_2023_b_213040045") or die('KONEKSI GAGAL');
 
     return $conn;
 }
